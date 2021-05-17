@@ -82,7 +82,7 @@ function rePaint()
             ifboom[parseInt(itid)] = false;
             ifclick[parseInt(itid)] = false;
             gameView.innerHTML += "<img " +
-                ("src = 'img/black.png'"  ) +
+                ("src = 'img/white.png'"  ) +
                 ("id  = '" + itid + "'" ) +
                 "onclick='isBlack(this.id)'/> ";
         }
